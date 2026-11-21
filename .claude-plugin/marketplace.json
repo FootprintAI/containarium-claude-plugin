@@ -1,0 +1,12 @@
+{
+  "name": "containarium",
+  "description": "Skills for using Containarium boxes from coding agents",
+  "owner": { "name": "FootprintAI", "url": "https://containarium.dev" },
+  "plugins": [
+    {
+      "name": "containarium-cloud",
+      "source": "./plugins/containarium-cloud",
+      "description": "Pair once with a human, then run or test code in an isolated remote Linux box on Containarium Cloud"
+    }
+  ]
+}

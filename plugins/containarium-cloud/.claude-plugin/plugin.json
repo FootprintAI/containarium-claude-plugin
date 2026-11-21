@@ -1,0 +1,10 @@
+{
+  "name": "containarium-cloud",
+  "version": "0.1.0",
+  "description": "Pair once with a human, then run or test code in an isolated remote Linux box on Containarium Cloud",
+  "author": { "name": "FootprintAI" },
+  "homepage": "https://containarium.dev/for/claude-code",
+  "repository": "https://github.com/FootprintAI/containarium-claude-plugin",
+  "license": "Apache-2.0",
+  "keywords": ["containarium", "sandbox", "remote-box", "mcp"]
+}
