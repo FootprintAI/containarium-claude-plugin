@@ -25,8 +25,8 @@ Otherwise do not start a pairing.
 3. Say to the user, and wait: "Open `<verification_url>`, sign in or sign
    up, check the code is `<user_code>`, and approve. If asked for a card,
    that is on Stripe, not in this chat. Note that this lets me start runs
-   on any GitHub repo your org has connected to Containarium, including
-   private ones, and runs can cause pull requests to be opened. I will
+   on any repo your org has connected to Containarium, including private
+   ones, and runs can cause pull requests to be opened. I will
    only use the repos you ask me to."
 4. Poll `GET /v1/cli/sessions/{session_id}/status` at
    `polling_interval_seconds` until `CLI_SESSION_STATUS_APPROVED`,
